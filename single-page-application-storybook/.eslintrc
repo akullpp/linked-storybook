@@ -1,0 +1,10 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "extends": [ "airbnb", "plugin:prettier/recommended" ]
+}

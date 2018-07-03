@@ -7,6 +7,7 @@ module.exports = (baseConfig, env, defaultConfig) => {
       test: /\.js$/,
       include: [
         __dirname,
+        fs.realpathSync(path.resolve(path.join(__dirname, '..', 'node_modules', 'single-page-application', 'src'))),
       ],
       loader: 'babel-loader',
       options: {

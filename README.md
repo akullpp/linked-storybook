@@ -1,6 +1,6 @@
 # Linked Storybook
 
-Symlink to a SPA created by CRA to use in a separate Storybook project.
+Symlink a SPA created by CRA to use in a separate Storybook project.
 
 ## Setup
 
